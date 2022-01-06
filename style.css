@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(orange 0%, red 100%);
+}
+h1{
+    background: linear-gradient(orange 0%, red 100%);
+}
+#show_sketch{
+    float:right;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+p{
+    font-size: 25px;
+    color: yellow;
+}
+
+canvas{
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 115px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
